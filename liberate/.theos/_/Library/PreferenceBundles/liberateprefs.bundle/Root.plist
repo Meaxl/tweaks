@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+         	</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Lockscreen Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>statusBarShowTimeLS</string>
+			<key>label</key>
+			<string>Time in LS Status Bar (iPhone X)</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideNoOlderNotifs</string>
+			<key>label</key>
+			<string>Hide "No Older Notifications"</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Homescreen Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideFolderTitle</string>
+			<key>label</key>
+			<string>Hide Folder Titles</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideFolderBG</string>
+			<key>label</key>
+			<string>Hide Folder Background</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideFolderBGSB</string>
+			<key>label</key>
+			<string>Hide Folder Background (on HS)</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideFolderDots</string>
+			<key>label</key>
+			<string>Hide Page Dots*</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideCCGrabber</string>
+			<key>label</key>
+			<string>Hide CC Grabber (iPhone X)</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideWeatherInfo</string>
+			<key>label</key>
+			<string>Hide Weather Attribution*</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideZoom</string>
+			<key>label</key>
+			<string>Zoom endlessly</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideSpotlight</string>
+			<key>label</key>
+			<string>Disable Spotlight</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+            <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string> 
+			<key>label</key>
+			<string>* requires respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>saveTapped</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits - Made by:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>repo.degarni.de — Maximilian</string>
+			<key>action</key>
+			<string>openRepo</string>
+            <key>icon</key>
+            <string>icon_github.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Liberate</string>
+</dict>
+</plist>
