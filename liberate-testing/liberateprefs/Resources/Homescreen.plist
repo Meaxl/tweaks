@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>title</key>
+    <string>Homescreen Tweaks</string>
+	<key>items</key>
+	<array>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Homescreen</string>
+            <!--<key>footerText</key>
+            <string>Lockscreen tint alpha.</string>-->
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+        </dict>
+        <dict> <!-- HIDE PAGE DOTS -->
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hidePageDots</string>
+			<key>label</key>
+			<string>Hide Page Dots*</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict> <!-- HIDE HOMEBAR -->
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideHomeBar</string>
+			<key>label</key>
+			<string>Hide Homebar*</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict> <!-- HIDE WEATHER ATTRIBUTION -->
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideWeatherInfo</string>
+			<key>label</key>
+			<string>Hide Weather Attribution*</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict> <!-- HIDE FOLDER TITLE -->
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideFolderTitle</string>
+			<key>label</key>
+			<string>Hide Folder Titles</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+		<dict> <!-- HIDE FOLDER BACKGROUND -->
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>degarni.tweaks.liberate</string>
+			<key>key</key>
+			<string>hideFolderBG</string>
+			<key>label</key>
+			<string>Hide Folder Background</string>
+			<key>PostNotification</key>
+			<string>degarni.tweaks.liberate/preferences.changed</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Homescreen Tweaks</string>
+</dict>
+</plist>
