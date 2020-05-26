@@ -6,9 +6,9 @@ TARGET = iphone:clang:13.2:11.0
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 
-Liberate_FILES = Tweak.xm
+Liberate_FILES = Tweak.xm ExactTime.xm
 Liberate_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += liberateprefs
+SUBPROJECTS += liberateprefs 
 include $(THEOS_MAKE_PATH)/aggregate.mk

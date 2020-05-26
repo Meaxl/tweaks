@@ -1,6 +1,5 @@
 #import "Preferences.h"
 
-
 @implementation LBRPrefsListController
 @synthesize respringButton;
 
@@ -210,4 +209,38 @@
     return _specifiers;
 }
 
+@end
+
+@implementation ExactTimeprefsListController
+
+- (instancetype)init 
+{
+    self = [super init];
+
+    if (self) 
+    {
+        self.titleLabel.text = @"ExactTime";
+    }
+
+    return self;
+}
+
+- (void)viewDidLoad 
+{
+    self.loadHeaderView = NO;
+    [super viewDidLoad];
+
+    [self.headerView removeFromSuperview];
+}
+
+- (id)specifiers {
+    if(_specifiers == nil) {
+        _specifiers = [self loadSpecifiersFromPlistName:@"ExactTimeprefs" target:self];
+    }
+    return _specifiers;
+}
+
+-(void)apply{
+[self.view endEditing:YES];
+}
 @end

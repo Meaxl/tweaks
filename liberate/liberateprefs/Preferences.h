@@ -22,3 +22,5 @@
 @end 
 @interface LBRMiscController : LBRPrefsListController
 @end 
+@interface ExactTimeprefsListController: LBRPrefsListController
+@end

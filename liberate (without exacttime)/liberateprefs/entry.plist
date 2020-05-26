@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = liberateprefs;
+	cell = PSLinkCell;
+	detail = LBRPrefsListController;
+	isController = 1;
+	label = Liberate;
+	icon = icon.png;
+    };
+}

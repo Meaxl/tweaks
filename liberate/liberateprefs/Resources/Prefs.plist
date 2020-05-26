@@ -34,7 +34,7 @@
 			<key>label</key>
 			<string>Configuration</string>
 			<key>footerText</key>
-			<string></string>
+			<string>marked with * requieres respring</string>
 			<key>isStaticText</key>
 			<true/>
 		</dict>
@@ -79,6 +79,22 @@
 			<string>LBRMiscController</string>
 			<key>icon</key>
             <string>misc.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>ExactTime</string>
+			<key>isController</key>
+			<true/>
+			<key>customControllerClass</key>
+			<string>ExactTimeprefsListController</string>
+			<key>detail</key>
+			<string>ExactTimeprefsListController</string>
 		</dict>
 		<!-- Credits -->
 		<dict>
