@@ -1,0 +1,9 @@
+Package: degarni.tweaks.exacttime
+Name: ExactTime
+Depends: mobilesubstrate
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Shows the exact time of a notification.
+Maintainer: Maximilian <maximilian.brugger@icloud.com>
+Author: Maximilian <maximilian.brugger@icloud.com>
+Section: Tweaks
