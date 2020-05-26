@@ -5,7 +5,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = liberateprefs
 
-liberateprefs_FILES = $(wildcard *.m)
+liberateprefs_FILES = LibRootListController.m
 liberateprefs_INSTALL_PATH = /Library/PreferenceBundles
 liberateprefs_FRAMEWORKS = UIKit
 liberateprefs_PRIVATE_FRAMEWORKS = Preferences

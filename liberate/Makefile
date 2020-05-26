@@ -1,13 +1,12 @@
+include $(THEOS)/makefiles/common.mk
+
 ARCHS = arm64 arm64e
-TARGET = iphone:clang:11.2:11.2
+TWEAK_NAME = Liberate
+TARGET = iphone:clang:13.2:11.0
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 
-include $(THEOS)/makefiles/common.mk
-
-TWEAK_NAME = Liberate
-
-Liberate_FILES = Tweak.x
+Liberate_FILES = Tweak.xm
 Liberate_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk

@@ -1,1 +1,1 @@
-{ Filter = { Bundles = ( "com.apple.springboard", "com.apple.mobileslideshow" ); }; }
+{ Filter = { Bundles = ( "com.apple.springboard", "com.apple.mobileslideshow", "com.apple.UIKit" ); }; }
