@@ -1,0 +1,9 @@
+Package: degarni.tweaks.cnon
+Name: CustomNoOlderNotifications
+Depends: mobilesubstrate, preferenceloader
+Version: 1.0.1~debug-1
+Architecture: iphoneos-arm
+Description: Change the "No Older Notifications" text to a custom one!
+Maintainer: Maximilian <maximilian.brugger@icloud.com>
+Author: Maximilian <maximilian.brugger@icloud.com>
+Section: Tweaks
